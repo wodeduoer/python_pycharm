@@ -14,7 +14,7 @@ def fib(n):
     print("你好！！！")
 
 
-# fib(100)
+fib(10)
 
 
 # 测试range函数
@@ -32,6 +32,7 @@ for x in D.keys():
 D3 = {}
 x1 = [x for x in D]
 x1.sort()  # 利用列表的排序对字典排序
+# 20200318:python增加了内置函数sorted,此函数可对字典的keys排序，而不必再通过如上的列表转换
 
 for x3 in x1:
     print(x3, D.get(x3))
